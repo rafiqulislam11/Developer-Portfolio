@@ -2,32 +2,75 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
-
+.h1{
+     font-size: 50px;
+}
+.h2{
+    font-size: 50px;
+}
 .top-banner{
     background-image: url(Image/22.png);
     background-repeat: no-repeat;
 }
 
+.dream-big{
+    background-image: url(Image/24.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
 
 .orange-color{
     color: orange;
 }
-section{
+.flaxible-container{
     display: flex;
+    margin-bottom: 10px;
 }
 .half-width{
     width: 50%;
     padding-left: 10%;
+    
 }
 .half-width img{
     width: 70%;
 }
 .link-button{
     text-decoration: none;
-    background-color: tomato;
+    background: rgb(218,35,174);
+    background: linear-gradient(90deg, rgba(218,35,174,1) 0%, rgba(179,11,235,1) 0%, rgba(235,212,8,1) 46%, rgba(0,185,255,1) 100%);
     padding: 10px 20px;
     color: white;
     font-weight: 600;
     border-radius: 10px; 
+}
+.experience-item{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gainsboro;
+    
+   
+    
+}
+#Web-Developer-Experience{
+    border-left: 7px solid ;
+    border-image: linear-gradient(0deg, rgb(13, 14, 14) 0%, rgba(222,39,39,1) 49%, rgb(70, 5, 70) 100%);
+    border-image-slice: 1;
+}
+#Full-Stack-Experience{
+    border-left: 7px solid ;
+    border-image: linear-gradient(0deg, rgb(13, 14, 14) 0%, rgba(222,39,39,1) 49%, rgb(70, 5, 70) 100%);
+    border-image-slice: 1;  border-image-slice: 1;
+}
+
+.experience-area{
+    background-image: url(Image/22.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+footer p{
+    text-align: center;
 }
